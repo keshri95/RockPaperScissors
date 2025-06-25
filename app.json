@@ -8,6 +8,7 @@
     "scheme": "rockpaperscissor",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "assetBundlePatterns": ["assets/sounds/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -33,7 +34,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-audio"
     ],
     "experiments": {
       "typedRoutes": true
